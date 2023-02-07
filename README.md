@@ -1,12 +1,17 @@
 # colorful-.bashrc
-this program is used to solve confusion when using SSH to remote control device
-apply the same .bashrc and the script, devicecolor in all the computer you'll ssh to
+this short program is used to solve confusion when using SSH to remote control device
+
+making hostname highly distinguishable by showing the hostname's text in a color described in hostname itself
 
 for example, if the hostname is contain the word red,
 then the terminal will show the hostname's text in red, simple
+but if the hostname contain no color-related words, then it have no effect
+
+apply the same .bashrc and the script, devicecolor in all the device you'll ssh to
+
 
 this works if
-  the computer name contain some color related words listed inside the script, devicecolor
+  the computer name contain some color-related words listed inside the script, devicecolor
 and if
   devicecolor is executable and is inside a directry of environment path
 
