@@ -3,7 +3,7 @@ this short program is used to solve confusion when using SSH to remote control d
 
 making hostname highly distinguishable by showing the hostname's text in a color described in hostname itself
 
-for example, if the hostname is contain the word red,
+for example, if the hostname is contain the word "red",
 then the terminal will show the hostname's text in red, simple
 but if the hostname contain no color-related words, then it have no effect
 
