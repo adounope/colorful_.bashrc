@@ -1,0 +1,32 @@
+#!/bin/bash
+case $(hostname) in
+	*red*)
+		devicecolor='\[\033[01;31m\]'
+		;;
+	*green*)
+                devicecolor='\[\033[01;32m\]'
+		;;
+	*cyan*|*sky*)
+		devicecolor='\[\033[01;36m\]'
+		;;
+	*blue*)
+		devicecolor='\[\033[01;34m\]'
+		;;
+	*purple*)
+		devicecolor='\[\033[01;35m\]'
+		;;
+	*brown*|*wood*|*yellow*|*gold*)
+		devicecolor='\[\033[01;33m\]'
+		;;
+	*grey*|*silver*)
+                devicecolor='\[\033[02;37m\033[02;47m\]'
+                ;;
+	*black*|*dark*|*carbon*|*night*)
+		devicecolor='\[\033[02;37m\033[02;40m\]'
+		;;
+	*)
+		devicecolor='\[\033[00m\]'
+		;;
+esac
+echo $devicecolor
+exit 0
