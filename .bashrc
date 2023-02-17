@@ -10,7 +10,7 @@ case $(hostname) in
 		devicecolor='\[\033[01;31m\]'
 		;;
 	*green*)
-                devicecolor='\[\033[01;32m\]'
+        devicecolor='\[\033[01;32m\]'
 		;;
 	*cyan*|*sky*)
 		devicecolor='\[\033[01;36m\]'
@@ -25,8 +25,8 @@ case $(hostname) in
 		devicecolor='\[\033[01;33m\]'
 		;;
 	*grey*|*silver*)
-                devicecolor='\[\033[02;37m\033[02;47m\]'
-                ;;
+        devicecolor='\[\033[02;37m\033[02;47m\]'
+        ;;
 	*black*|*dark*|*carbon*|*night*)
 		devicecolor='\[\033[02;37m\033[02;40m\]'
 		;;
@@ -124,6 +124,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias l.='ls -d .* --color=auto'
 alias python=python3
+alias pip=pip3
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
